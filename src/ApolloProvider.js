@@ -10,7 +10,7 @@ import { setContext } from 'apollo-link-context';
 import { TOKEN_KEY } from './context/auth';
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:5000',
+    uri: 'https://mighty-lake-38143.herokuapp.com/',
 });
 
 const authLink = setContext(() => {
